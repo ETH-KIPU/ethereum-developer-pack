@@ -1,3 +1,3 @@
 # Ethereum Developer Pack
 
-Revisando si la integración funcionó.
+Un grupo de cursos para aprender a desarrollar en el ecosistema de Ethereum. Son cinco módulos donde enseñamos desde lo más básico de blockchain hasta seguridad de Smart Contracts.
