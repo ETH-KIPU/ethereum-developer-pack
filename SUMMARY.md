@@ -5,7 +5,7 @@
 ## Módulo 1
 
 * [Contenidos](modulo-1/contenidos.md)
-
-***
-
-* [Fundamentos de Blockchain](fundamentos-de-blockchain.md)
+* [Fundamentos de Blockchain](modulo-1/fundamentos-de-blockchain/README.md)
+  * [Antecedentes](modulo-1/fundamentos-de-blockchain/antecedentes.md)
+  * [Bitcoin](modulo-1/fundamentos-de-blockchain/bitcoin.md)
+  * [Qué es Blockchain](modulo-1/fundamentos-de-blockchain/que-es-blockchain.md)
