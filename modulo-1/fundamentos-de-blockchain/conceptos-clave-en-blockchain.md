@@ -1,4 +1,4 @@
-# Conceptos incorporados dentro de Blockchain
+# Conceptos Clave en Blockchain
 
 La genialidad de Satoshi Nakamoto se refleja en que supo integrar en su propuesta avances realizados en materias como: redes de computadores, teoría de juegos y criptografía.
 
@@ -71,7 +71,7 @@ En el caso particular de Bitcoin, la forma de resolver el problema de ataques o 
 
 La criptografía es esencial en la blockchain para garantizar la seguridad y la privacidad de las transacciones. En la blockchain, cada transacción se registra en un bloque, que se agrega a una cadena de bloques. Cada bloque contiene un hash, que es una cadena de caracteres única que identifica el bloque y todas las transacciones que contiene.
 
-**Qué es un hash**
+#### **Qué es un hash**
 
 Un hash (picadillo en español) es un código que se obtiene al aplicar una función criptográfica a una información de entrada. Podríamos por ejemplo aplicar una función hash a un documento, un video, una imagen o un programa y obtendremos como resultado un código único y de un tamaño fijo, un hash, equivalente a una huella digital del archivo de origen.
 
@@ -93,4 +93,59 @@ Decimal 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15&#x20;
 
 Hex. 0 1 2 3 4 5 6 7 8 9 A B C D E F
 
-**Requisitos de una función hash**
+#### **Requisitos de una función hash**
+
+Una función hash debe cumplir los siguientes requisitos:
+
+* Funcionar en una sola dirección. No se debe poder reconstruir el contenido de origen a partir del hash.
+* Ser determinística. Para un mismo documento el hash siempre debe ser el mismo.
+* Calcularse rápidamente. El hash debe poder generarse de forma rápida y eficiente.
+* Tener efecto avalancha. Ante el menor cambio en el archivo de origen, el nuevo hash debe ser completamente diferente. No debe ser predecible.
+* Evitar colisiones. No debe ocurrir que para dos archivos de origen diferentes se genere un mismo hash; en realidad, podría ocurrir pero con muy baja probabilidad.
+
+Puedes probar como funciona un hash [aquí](https://andersbrownworth.com/blockchain/hash).
+
+#### **Merkle Tree**
+
+Es una estructura de datos en forma de árbol utilizada en criptografía y en la construcción de blockchain para asegurar y verificar la integridad de los datos almacenados en bloques. Esta estructura fue propuesta por Ralph Merkle en 1979 y se ha vuelto fundamental en sistemas distribuidos y criptomonedas como Bitcoin.
+
+La idea básica detrás de un árbol de Merkle es resumir una gran cantidad de datos en una estructura de árbol, de manera que se pueda verificar eficientemente si un elemento específico está incluido en un conjunto y asegurar la integridad de los datos.
+
+Aquí hay una descripción simplificada de cómo funciona un árbol de Merkle:
+
+1. **División en Pares:**
+   * Los datos a ser incluidos en el árbol se dividen en bloques (o elementos individuales).
+2. **Hash de Pares:**
+   * Cada bloque se somete a una función de hash, creando así un conjunto de resúmenes de hash.
+3. **Combinación de Hash:**
+   * Los resúmenes de hash se combinan en pares, y a estos pares también se les aplica una función de hash para crear un nivel superior del árbol.
+4. **Repetición:**
+   * El proceso se repite hasta que solo queda un hash, conocido como la "raíz de Merkle" o "Merkle root". Esta raíz resume todos los datos en el árbol de manera única.
+
+En un árbol de Merkle, cambiar un solo dato en un bloque tendría un impacto en los resúmenes de hash en todos los niveles superiores del árbol, lo que significa que se puede detectar fácilmente si se ha alterado un dato.
+
+<figure><img src="../../.gitbook/assets/EDP_mod1_3.png" alt=""><figcaption></figcaption></figure>
+
+En la construcción de nuevos bloques, la raíz de Merkle se incluye en la cabecera del bloque y se utiliza para verificar la autenticidad de las transacciones en ese bloque. Si tienes la raíz de Merkle y un conjunto de transacciones, puedes verificar eficientemente si una transacción específica está incluida en el bloque sin necesidad de acceder a todas las transacciones.
+
+#### **Otros usos de la criptografía en blockchain**
+
+La blockchain también utiliza claves criptográficas para garantizar que solo los propietarios legítimos de las criptomonedas puedan realizar transacciones. Cada usuario tiene un par de claves, una pública y una privada, que se utilizan para firmar transacciones.
+
+La clave pública se comparte con otros usuarios de la red y se utiliza para verificar la firma digital de la transacción, mientras que la clave privada se mantiene en secreto y se utiliza para firmar las transacciones.
+
+Entre las principales herramientas de criptografía utilizadas en blockchain tenemos:
+
+* SHA-256 es una función hash criptográfica utilizada en blockchain para asegurar la integridad de los datos. Cuando se agrega un nuevo bloque a la cadena de bloques, se aplica la función SHA-256 a todo el bloque, lo que produce un valor hash único que identifica el bloque. SHA-256 es una de las funciones hash más utilizadas en blockchain debido a su seguridad y eficiencia.
+* ECDSA (Algoritmo de firma digital de curva elíptica) es un algoritmo de firma digital utilizado en blockchain para verificar la autenticidad de las transacciones. Cada transacción en la cadena de bloques se firma digitalmente con la clave privada del remitente utilizando ECDSA. Entonces, la red verifica la firma utilizando la clave pública del remitente para asegurarse de que la transacción es auténtica. ECDSA es un algoritmo seguro y eficiente que se utiliza ampliamente en blockchain.
+* RIPEMD-160 es una función hash criptográfica utilizada en blockchain para generar direcciones de criptomonedas únicas. Cuando se crea una billetera de criptomonedas, se genera una clave privada única. Luego, se utiliza RIPEMD-160 para generar una dirección pública única a partir de la clave privada. La dirección pública se utiliza para enviar y recibir criptomonedas. RIPEMD-160 es una función hash segura y eficiente que se utiliza ampliamente en blockchain para generar direcciones únicas y proteger la privacidad de los usuarios.
+
+#### **Por qué decimos que decimos que bitcoin es una criptomoneda**
+
+Siempre escuchamos que bitcoin es una criptomoneda. Ahora podemos entender por qué es cripto: su existencia está soportada en varias herramientas de criptografía que permiten:
+
+* proteger la historia de las transacciones guardadas en la blockchain
+* generar un mecanismo para premiar a los mineros participantes
+* verificar que quien envía los bitcoins es el propietario de las monedas
+* garantizar que las transacciones sean válidas
+* asegurar la privacidad de quienes realizan transacciones.
