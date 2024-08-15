@@ -9,4 +9,4 @@
   * [Antecedentes](modulo-1/fundamentos-de-blockchain/antecedentes.md)
   * [Bitcoin](modulo-1/fundamentos-de-blockchain/bitcoin.md)
   * [Qué es Blockchain](modulo-1/fundamentos-de-blockchain/que-es-blockchain.md)
-  * [Conceptos incorporados dentro de Blockchain](modulo-1/fundamentos-de-blockchain/conceptos-incorporados-dentro-de-blockchain.md)
+  * [Conceptos Clave en Blockchain](modulo-1/fundamentos-de-blockchain/conceptos-clave-en-blockchain.md)
