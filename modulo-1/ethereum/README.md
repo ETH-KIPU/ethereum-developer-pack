@@ -1,0 +1,19 @@
+# Ethereum
+
+Bitcoin es una blockchain especializada en la creación de una moneda (bitcoin), así como en el registro de las transacciones que se realizan con ella. En su momento, algunos pioneros reconocieron que se podía utilizar esta tecnología para otras aplicaciones diferentes. Por ejemplo el proyecto Colored Coins buscaba gestionar activos del mundo real (acciones, monedas, propiedades inmobiliarias) en forma de tokens sobre la red de Bitcoin. Así como en este caso, se empezaron a desarrollar aplicaciones específicas para cada caso de uso sobre Bitcoin, utilizando el lenguaje de programación de este protocolo (Bitcoin Script) y llevando al protocolo de Bitcoin al límite de su potencial.
+
+Pero Bitcoin Script tiene sus limitaciones, no es un lenguaje de programación Turing-complete, pues le falta funciones tan comunes como los loops que permiten realizar una misma instrucción muchas veces utilizando un contador. Tiene sentido restringir esta funcionalidad en una blockchain de uso específico para controlar dinero digital. No queremos por ejemplo que alguien por error o con mala intención genere un loop infinito que haga caer la red; pero no tiene sentido para crear aplicaciones que vayan más allá de controlar transacciones de dinero. Así que estos pioneros tenían que desarrollar sus ideas utilizando un lenguaje de programación limitado y fabricando cada uno sus propias navajas suizas, útiles para un número limitado de casos de uso. En el 2013, un joven ruso-canadiense de 19 años, estudiante de la Universidad de Waterloo en Canadá, llamado Vitalik Buterin, solicitó a su universidad tomarse un año sabático para trabajar en proyectos de criptomonedas. Inició una gira por diferentes lugares del mundo como Estados Unidos, Holanda e Israel, en los que tenía amigos trabajando en la frontera del potencial de Bitcoin.
+
+En Israel había dos proyectos muy innovadores llamados Colored Coins y Mastercoin. Pudo colaborar con ellos pero se dio cuenta rápidamente que el enfoque que utilizaban para el desarrollo no era el adecuado, no se trataba de crear navajas suizas, útiles para propósitos limitados, sino que era mejor crear bloques de LEGO para que cada uno pueda construir lo que quisiera.
+
+Su idea no fue tan bien recibida como él esperaba, pues los líderes de los proyectos a los que hizo su propuesta priorizaban más la oportunidad de salir al mercado con lo que ya tenían, en lugar de aventurarse a alguno nuevo.
+
+Dado que Vitalik no tuvo eco, decidió crear una nueva blockchain que fuera de propósito general, en la que se pudiera programar lo que uno quisiera. Para ello escribió el White Paper de Ethereum «Una plataforma de siguiente generación para smart contracts y aplicaciones descentralizadas» donde describió las especificaciones de una tecnología que revolucionaría el mundo, como años atrás lo había hecho Satoshi Nakamoto.
+
+El [WhitePaper](https://ethereum.org/669c9e2e2027310b6b3cdce6e1c52962/Ethereum\_Whitepaper\_-\_Buterin\_2014.pdf) de Vitalik publicado en el 2013 capturó el interés de un grupo de colaboradores, entre los que destacan Gavin Wood, Charles Hoskinson, Mihai Alisie, Anthony Di Iorio y Joseph Lubin. En el 2014 obtuvieron el financiamiento para el proyecto bajo una forma de crowdfunding y en el 2015 pudieron poner en funcionamiento Ethereum gracias al esfuerzo de un ejército de colaboradores a nivel mundial.
+
+Ethereum es una evolución de Bitcoin, que incorpora un lenguaje de programación Turing complete y la posibilidad de ejecutar código que se guarda en la propia blockchain.
+
+Es una gran computadora mundial capaz de ejecutar contratos inteligentes y aplicaciones descentralizadas.
+
+Estas aplicaciones funcionan exactamente como están programadas, sin posibilidad de censura, fraude o interferencia de terceros, ya que el código fuente del contrato inteligente es inmutable.

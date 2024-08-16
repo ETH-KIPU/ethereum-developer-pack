@@ -1,8 +1,4 @@
----
-description: Intro a Smart Contracts
----
-
-# Contenidos
+# ⛓️ Intro a Smart Contracts
 
 **Objetivo:** Revisar los conceptos básicos de blockchain y Ethereum para entender la máquina descentralizada sobre la corren los smart contracts. Crear el primer smart contract en una testnet.
 
