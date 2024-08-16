@@ -1,10 +1,6 @@
-# Ethereum 101
+# Ethereum: Nociones Esenciales
 
-## ETHEREUM 101
-
-### Ethereum es una computadora
-
-### Smart Contracts
+#### Smart Contracts
 
 ### Cuentas
 
