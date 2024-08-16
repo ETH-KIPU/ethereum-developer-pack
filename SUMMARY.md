@@ -4,7 +4,7 @@
 
 ## Módulo 1
 
-* [⛓️ Intro a Smart Contracts](modulo-1/intro-a-smart-contracts.md)
+* [Intro a Smart Contracts](modulo-1/intro-a-smart-contracts.md)
 * [Fundamentos de Blockchain](fundamentos-de-blockchain.md)
   * [Antecedentes](modulo-1/fundamentos-de-blockchain/antecedentes.md)
   * [Bitcoin](modulo-1/fundamentos-de-blockchain/bitcoin.md)
@@ -21,3 +21,11 @@
   * [Componentes de una wallet](modulo-1/wallets/componentes-de-una-wallet.md)
   * [Tipos de Wallet](modulo-1/wallets/tipos-de-wallet.md)
   * [Códigos mnemónicos](modulo-1/wallets/codigos-mnemonicos.md)
+
+## Módulo 2
+
+* [Fundamentos de Solidity](modulo-2/fundamentos-de-solidity.md)
+
+## Módulo 3
+
+* [Estándares, Librerías y Patrones](modulo-3/estandares-librerias-y-patrones.md)
