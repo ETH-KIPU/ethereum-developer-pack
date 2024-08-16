@@ -5,7 +5,7 @@
 ## Módulo 1
 
 * [⛓️ Intro a Smart Contracts](modulo-1/intro-a-smart-contracts.md)
-* [Fundamentos de Blockchain](modulo-1/fundamentos-de-blockchain/README.md)
+* [Fundamentos de Blockchain](fundamentos-de-blockchain.md)
   * [Antecedentes](modulo-1/fundamentos-de-blockchain/antecedentes.md)
   * [Bitcoin](modulo-1/fundamentos-de-blockchain/bitcoin.md)
   * [Qué es Blockchain](modulo-1/fundamentos-de-blockchain/que-es-blockchain.md)
