@@ -29,3 +29,11 @@
 ## Módulo 3
 
 * [Estándares, Librerías y Patrones](modulo-3/estandares-librerias-y-patrones.md)
+
+## Módulo 4
+
+* [Toolkit para desarrollo Ethereum](modulo-4/toolkit-para-desarrollo-ethereum.md)
+
+## Módulo 5
+
+* [Seguridad, Pruebas y Auditoría](modulo-5/seguridad-pruebas-y-auditoria.md)
