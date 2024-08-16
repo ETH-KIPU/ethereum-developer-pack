@@ -10,4 +10,4 @@ icon: book-atlas
 
 <figure><img src="../.gitbook/assets/EDP_mod3.png" alt=""><figcaption></figcaption></figure>
 
-Toda la información [aquí](https://ethkipu.notion.site/EDP-M-dulo-3-Est-ndares-Librer-as-y-Patrones-19c6ae9038e14f8db7470d0e22248b2a?pvs=4).
+Toda la información [aquí](https://ethkipu.notion.site/Est-ndares-librer-as-y-patrones-934170ce0a054c8b88d095b08a40df02).
