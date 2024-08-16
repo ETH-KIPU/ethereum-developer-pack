@@ -26,6 +26,7 @@
 ## Módulo 2
 
 * [Fundamentos de Solidity](modulo-2/fundamentos-de-solidity.md)
+* [Hello World](modulo-2/hello-world.md)
 
 ## Módulo 3
 
