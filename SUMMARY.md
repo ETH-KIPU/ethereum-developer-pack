@@ -21,6 +21,7 @@
   * [Componentes de una wallet](modulo-1/wallets/componentes-de-una-wallet.md)
   * [Tipos de Wallet](modulo-1/wallets/tipos-de-wallet.md)
   * [Códigos mnemónicos](modulo-1/wallets/codigos-mnemonicos.md)
+* [Ethereum 101](modulo-1/ethereum-101.md)
 
 ## Módulo 2
 
