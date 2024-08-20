@@ -2,7 +2,7 @@
 
 El diseño de contratos inteligentes en Solidity requiere un enfoque cuidadoso para asegurar la seguridad, eficiencia y mantenibilidad del código. Aquí hay algunas buenas prácticas de diseño en Solidity que te ayudarán a desarrollar contratos inteligentes más robustos y fiables:
 
-1. Empezar por la seguridad 🔑
+### Empezar por la seguridad 🔑
 
 * **Implementar control de accesos:** Protege funciones críticas de accesos no autorizados. Implementa un control de acceso basado en roles para asegurar que solo las personas autorizadas puedan ejecutar determinadas funciones.
 * **Validar entradas externas**: Siempre valida los inputs de las funciones para prevenir condiciones inesperadas o maliciosas. Implemente mecanismos de validación de entrada adecuados, como verificaciones de rango, verificación de longitud de entrada y validación de tipo de datos. Asegurándose de la validez de las entradas de los usuarios, puede prevenir el acceso no autorizado, la corrupción de datos y otras vulnerabilidades de seguridad.
