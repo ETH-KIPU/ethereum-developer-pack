@@ -22,7 +22,6 @@
   * [Tipos de Wallet](modulo-1/wallets/tipos-de-wallet.md)
   * [Códigos mnemónicos](modulo-1/wallets/codigos-mnemonicos.md)
 * [Ethereum 101](modulo-1/ethereum-101/README.md)
-  * [Nociones Fundamentales](modulo-1/ethereum-101/nociones-fundamentales.md)
   * [Smart Contracts](modulo-1/ethereum-101/smart-contracts.md)
   * [Cuentas](modulo-1/ethereum-101/cuentas/README.md)
     * [Tipos de cuentas](modulo-1/ethereum-101/cuentas/tipos-de-cuentas.md)
