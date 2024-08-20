@@ -1,4 +1,4 @@
-# Ethereum
+# El nuevo Internet
 
 Bitcoin es una blockchain especializada en la creación de una moneda (bitcoin), así como en el registro de las transacciones que se realizan con ella. En su momento, algunos pioneros reconocieron que se podía utilizar esta tecnología para otras aplicaciones diferentes. Por ejemplo el proyecto Colored Coins buscaba gestionar activos del mundo real (acciones, monedas, propiedades inmobiliarias) en forma de tokens sobre la red de Bitcoin. Así como en este caso, se empezaron a desarrollar aplicaciones específicas para cada caso de uso sobre Bitcoin, utilizando el lenguaje de programación de este protocolo (Bitcoin Script) y llevando al protocolo de Bitcoin al límite de su potencial.
 

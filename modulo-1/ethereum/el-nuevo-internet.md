@@ -1,4 +1,4 @@
-# El Nuevo Internet
+# Web 3
 
 Web3 se refiere a la tercera fase del desarrollo de la World Wide Web, caracterizada por la descentralización y la adopción generalizada de tecnologías blockchain.
 
