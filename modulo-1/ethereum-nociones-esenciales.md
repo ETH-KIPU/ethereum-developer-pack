@@ -35,6 +35,15 @@
 
 ### REMIX
 
+```typescript
+* Características de Remix
+* Workspaces o espacios de trabajo
+* Cargar y compilar un contrato
+* Desplegar en la máquina virtual de Remix (Remix VM)
+* Interactuando con funciones
+* Desplegar en una red pública
+```
+
 ### CREA TU PRIMER SMART CONTRACT
 
 {% hint style="info" %}
