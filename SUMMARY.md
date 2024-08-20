@@ -71,6 +71,9 @@
   * [Buenas Prácticas de Diseño](modulo-3/estandares-librerias-y-patrones/buenas-practicas-de-diseno.md)
   * [Patrones de Diseño](modulo-3/estandares-librerias-y-patrones/patrones-de-diseno.md)
   * [EIP y ERC](modulo-3/estandares-librerias-y-patrones/eip-y-erc.md)
+  * [ERC-20](modulo-3/estandares-librerias-y-patrones/erc-20.md)
+  * [ERC-721](modulo-3/estandares-librerias-y-patrones/erc-721.md)
+  * [Open Zeppelin](modulo-3/estandares-librerias-y-patrones/open-zeppelin.md)
 
 ## Módulo 4
 
