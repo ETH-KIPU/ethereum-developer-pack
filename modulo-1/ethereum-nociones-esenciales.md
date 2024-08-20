@@ -35,6 +35,8 @@
 
 ### REMIX
 
+*
+
 ```typescript
 * Características de Remix
 * Workspaces o espacios de trabajo
