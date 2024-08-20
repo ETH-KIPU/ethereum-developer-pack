@@ -45,5 +45,5 @@
 ### CREA TU PRIMER SMART CONTRACT
 
 {% hint style="info" %}
-Accede a todos los contenidos [**aquí**](https://ethkipu.notion.site/Clase-2-Intro-a-Smart-Contracts-1f52925f1a8d4889891bbbeeab20d788?pvs=4).
+Accede a los contenidos [**aquí**](https://ethkipu.notion.site/Clase-2-Intro-a-Smart-Contracts-1f52925f1a8d4889891bbbeeab20d788?pvs=4).
 {% endhint %}

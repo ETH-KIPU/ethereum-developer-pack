@@ -8,6 +8,6 @@ icon: book-atlas
 
 **Duración:** 9 horas (3 clases de 3 horas cada una).
 
-<figure><img src="../.gitbook/assets/EDP_mod3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/EDP_mod3.png" alt=""><figcaption></figcaption></figure>
 
 Toda la información [aquí](https://ethkipu.notion.site/Est-ndares-librer-as-y-patrones-934170ce0a054c8b88d095b08a40df02).

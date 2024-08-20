@@ -67,7 +67,8 @@
 
 ## Módulo 3
 
-* [Estándares, Librerías y Patrones](modulo-3/estandares-librerias-y-patrones.md)
+* [Estándares, Librerías y Patrones](modulo-3/estandares-librerias-y-patrones/README.md)
+  * [Buenas Prácticas de Diseño](modulo-3/estandares-librerias-y-patrones/buenas-practicas-de-diseno.md)
 
 ## Módulo 4
 
