@@ -1,0 +1,16 @@
+# Características
+
+* **Entorno de Desarrollo Integrado:** Scaffold-ETH incorpora tanto Hardhat como Foundry, proporcionando a los desarrolladores más flexibilidad en la creación, despliegue y prueba de contratos inteligentes.
+  * **Hardhat:** Continua siendo una opción robusta para la simulación de blockchain local, la depuración, y la automatización del desarrollo.
+  * **Foundry:** Añade una capa adicional con herramientas rápidas y potentes para escribir y ejecutar pruebas, realizar auditorías, y gestionar contratos inteligentes. Foundry es conocido por su velocidad y capacidad de prueba más rigurosa, lo que mejora la calidad del código.
+* **Conexión Front-End y Back-End:** Scaffold-ETH facilita la conexión entre el Front-End y Back-End utilizando Next.js y Viem.
+  * **Next.js:** Un popular framework de React, que facilita el desarrollo de aplicaciones web rápidas y optimizadas, con soporte para renderizado del lado del servidor y rutas dinámicas.
+  * **Viem:** Es una biblioteca de interfaz más moderna y optimizada que reemplaza Ethers.js en muchas de las funciones, proporcionando un mejor rendimiento y una API más intuitiva para interactuar con Ethereum.
+* **Herramientas de Integración:** Scaffold-ETH utiliza Wagmi y Rainbow kit para la gestión de conexiones con wallets, contratos, transacciones, firmas, ENS, etc.
+  * **Wagmi:** Una colección de hooks de React para interactuar con Ethereum, que simplifica enormemente la gestión de conexiones con wallets y la interacción con contratos inteligentes.
+  * **Rainbow Kit:** Permite una fácil integración de wallets con interfaces de usuario personalizables y una experiencia fluida para los usuarios. Rainbow Kit se destaca por su soporte para una amplia gama de wallets y su facilidad de configuración.
+* **Estilización y componentes de UI:** Scaffold-ETH utiliza DaisyUI para crear interfaces de usuario atractivas y consistente de forma sencilla.
+  * **DaisyUI:** Una biblioteca de componentes UI que se construye sobre Tailwind CSS, lo que permite un diseño rápido y flexible con una amplia variedad de componentes preestilizados.
+* **Plantillas y ejemplos mejorados:** Scaffold-ETH proporciona una rica colección de plantillas y ejemplos, actualizados para aprovechar las nuevas herramientas y optimizar el desarrollo de dApps en Ethereum. Estas plantillas cubren casos de uso comunes y ofrecen excelentes puntos de partida para nuevos proyectos.
+* **Automatización del flujo de trabajo:** Con la incorporación de scripts Scaffold-ETH facilita la automatización del despliegue, pruebas, y gestión de contratos inteligentes, aprovechando las capacidades avanzadas de Hardhat y Foundry. Esto reduce la complejidad y el tiempo de desarrollo, permitiendo iteraciones rápidas y confiables.
+* **Documentación y soporte comunitario:** Scaffold-ETH mantiene una amplia [documentación](https://docs.scaffoldeth.io/), incluyendo guías actualizadas y tutoriales que cubren desde la configuración inicial hasta el despliegue en producción, utilizando las nuevas herramientas integradas. Al ser un proyecto open source, Scaffold-ETH es respaldado por una comunidad de desarrolladores que contribuyen activamente con mejoras, soluciones y recursos adicionales.

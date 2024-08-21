@@ -88,7 +88,22 @@
 
 ## Módulo 4
 
-* [Toolkit para desarrollo Ethereum](modulo-4/toolkit-para-desarrollo-ethereum.md)
+* [Toolkit para desarrollo Ethereum](modulo-4/toolkit-para-desarrollo-ethereum/README.md)
+  * [Requisitos para el módulo 4](modulo-4/toolkit-para-desarrollo-ethereum/requisitos-para-el-modulo-4/README.md)
+    * [Terminal](modulo-4/toolkit-para-desarrollo-ethereum/requisitos-para-el-modulo-4/terminal.md)
+    * [Git y Github](modulo-4/toolkit-para-desarrollo-ethereum/requisitos-para-el-modulo-4/git-y-github.md)
+    * [Node.js y npm](modulo-4/toolkit-para-desarrollo-ethereum/requisitos-para-el-modulo-4/node.js-y-npm.md)
+    * [Visual Studio Code para Solidity](modulo-4/toolkit-para-desarrollo-ethereum/requisitos-para-el-modulo-4/visual-studio-code-para-solidity.md)
+  * [Toolkit](modulo-4/toolkit-para-desarrollo-ethereum/toolkit/README.md)
+    * [JSON-RPC](modulo-4/toolkit-para-desarrollo-ethereum/toolkit/json-rpc.md)
+    * [Ethers.js](modulo-4/toolkit-para-desarrollo-ethereum/toolkit/ethers.js/README.md)
+      * [Ejercicio](modulo-4/toolkit-para-desarrollo-ethereum/toolkit/ethers.js/ejercicio.md)
+    * [Hardhat](modulo-4/toolkit-para-desarrollo-ethereum/toolkit/hardhat/README.md)
+      * [Despliegue de un contrato en Hardhat](modulo-4/toolkit-para-desarrollo-ethereum/toolkit/hardhat/despliegue-de-un-contrato-en-hardhat.md)
+      * [Despliegue de un contrato en una red pública](modulo-4/toolkit-para-desarrollo-ethereum/toolkit/hardhat/despliegue-de-un-contrato-en-una-red-publica.md)
+    * [Scaffold-ETH](modulo-4/toolkit-para-desarrollo-ethereum/toolkit/scaffold-eth/README.md)
+      * [Características](modulo-4/toolkit-para-desarrollo-ethereum/toolkit/scaffold-eth/caracteristicas.md)
+      * [Cómo instalar Scaffold-ETH](modulo-4/toolkit-para-desarrollo-ethereum/toolkit/scaffold-eth/como-instalar-scaffold-eth.md)
 
 ## Módulo 5
 

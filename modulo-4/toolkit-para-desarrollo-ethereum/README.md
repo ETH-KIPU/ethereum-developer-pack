@@ -8,7 +8,7 @@ icon: briefcase-arrow-right
 
 **Duración:** 9 horas (3 clases de 3 horas cada una).
 
-<figure><img src="../.gitbook/assets/EDP_mod4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/EDP_mod4.png" alt=""><figcaption></figcaption></figure>
 
 Toda la información:
 
