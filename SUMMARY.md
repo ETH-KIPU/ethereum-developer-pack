@@ -82,6 +82,9 @@
   * [ERC-20](modulo-3/estandares-librerias-y-patrones/erc-20.md)
   * [ERC-721](modulo-3/estandares-librerias-y-patrones/erc-721.md)
   * [Open Zeppelin](modulo-3/estandares-librerias-y-patrones/open-zeppelin.md)
+  * [Crea un Token ERC-20](modulo-3/estandares-librerias-y-patrones/crea-un-token-erc-20.md)
+  * [Almacenamiento Descentralizado: IPFS](modulo-3/estandares-librerias-y-patrones/almacenamiento-descentralizado-ipfs.md)
+  * [Crea un Token ERC-721](modulo-3/estandares-librerias-y-patrones/crea-un-token-erc-721.md)
 
 ## Módulo 4
 
