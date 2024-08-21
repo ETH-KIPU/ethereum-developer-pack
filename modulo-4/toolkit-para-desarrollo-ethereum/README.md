@@ -10,7 +10,4 @@ icon: briefcase-arrow-right
 
 <figure><img src="../../.gitbook/assets/EDP_mod4.png" alt=""><figcaption></figcaption></figure>
 
-Toda la información:
-
-* [Material de preparación](https://ethkipu.notion.site/Material-de-preparaci-n-para-el-m-dulo-4-90ac193ca22a4d0a82d173cdd153b592)
-* [Toolkit Desarrollo en Ethereum](https://ethkipu.notion.site/Toolkit-Desarrollo-Ethereum-efe8e0c980a041a9a6378a54ada4dd09)
+Para poder participar en este módulo es necesario instalar y conocer las herramientas señaladas en la sección de requisitos del módulo 4.
