@@ -6,7 +6,7 @@ Bitcoin, la primera blockchain, estableció la idea de una moneda digital descen
 
 En ese sentido, Ethereum es una computadora mundial descentralizada.
 
-<figure><img src="../../.gitbook/assets/EDP_mod2_1_gb.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/EDP_mod2_1_gb (1).png" alt=""><figcaption></figcaption></figure>
 
 Decimos que es una computadora porque tiene los mismos componentes de una computadora tradicional:
 
