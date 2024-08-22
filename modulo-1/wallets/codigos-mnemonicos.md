@@ -20,4 +20,4 @@ La implementación exitosa del estándar BIP39 llevó a la proliferación de HD 
 
 A pesar de su utilidad, los códigos mnemónicos también presentan desafíos. La seguridad de estas frases recae en la responsabilidad del usuario para almacenarlas de manera segura. Factores como el riesgo de pérdida o robo físico del papel o dispositivo que almacena la frase de recuperación subrayan la necesidad de consideraciones adicionales en la gestión de estos códigos.
 
-Además, la fragilidad humana puede llevar a la elección de frases mnemotécnicas débiles o predecibles, lo que pone en riesgo la seguridad de los fondos. La educación y la conciencia son, por lo tanto, cruciales en la gestión de códigos mnemónicos.
+Además, la fragilidad humana puede llevar a la elección de frases mnemotécnicas débiles o predecibles, lo que pone en riesgo la seguridad de los fondos. La educación y la conciencia son, por lo tanto, cruciales en la gestión correcta de códigos mnemónicos.
