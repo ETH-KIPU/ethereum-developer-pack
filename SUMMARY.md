@@ -30,6 +30,7 @@
       * [Componentes](modulo-1/intro-a-smart-contracts/ethereum-101/transacciones/componentes.md)
       * [Ciclo de vida](modulo-1/intro-a-smart-contracts/ethereum-101/transacciones/ciclo-de-vida.md)
     * [Gas](modulo-1/intro-a-smart-contracts/ethereum-101/gas.md)
+    * [Solidity](modulo-1/intro-a-smart-contracts/ethereum-101/solidity.md)
 
 ## Módulo 2
 
