@@ -6,7 +6,7 @@ description: Componentes de una transacción
 
 Una transacción de Ethereum tiene los siguientes componentes:
 
-<figure><img src="../../../.gitbook/assets/EDP_mod1_11_gb.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/EDP_mod1_11_gb.png" alt=""><figcaption></figcaption></figure>
 
 #### **Metadatos**
 
@@ -50,4 +50,4 @@ El campo “input” no es parte del estado de la EVM. Simplemente provee datos 
 
 Así se vería una transacción completa:
 
-<figure><img src="../../../.gitbook/assets/EDP_mod1_12_gb.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/EDP_mod1_12_gb.png" alt=""><figcaption></figcaption></figure>

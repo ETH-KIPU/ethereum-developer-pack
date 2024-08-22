@@ -8,7 +8,7 @@ El estándar BIP39 especifica una estructura precisa para la creación de códig
 
 El vocabulario BIP39 consta de una lista de palabras predefinidas, y cada palabra representa un grupo específico de bits de la semilla. El estándar utiliza una longitud de 12, 15, 18, 21 o 24 palabras, brindando opciones para diferentes niveles de seguridad y facilidad de uso.
 
-<figure><img src="../../.gitbook/assets/EDP_mod1_8_gb.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/EDP_mod1_8_gb.png" alt=""><figcaption></figcaption></figure>
 
 La elección de una buena entropía es esencial para la seguridad de un código mnemónico. La entropía, en términos sencillos, es la medida de la imprevisibilidad. Una entropía adecuada garantiza que las claves generadas sean lo suficientemente complejas como para resistir ataques de fuerza bruta y garantiza la seguridad de los activos almacenados.
 

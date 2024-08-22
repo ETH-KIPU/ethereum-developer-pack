@@ -4,7 +4,7 @@ Las transacciones son acciones iniciadas por una EOA, es decir por una cuenta ma
 
 Las transacciones cambian el estado de computadora mundial descentralizada a la que se conoce también como una máquina de estados.
 
-<figure><img src="../../../.gitbook/assets/EDP_mod1_10_gb.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/EDP_mod1_10_gb.png" alt=""><figcaption></figcaption></figure>
 
 Las transacciones para ser procesadas por la EVM deben ser enviadas a los nodos de la red de Ethereum.
 

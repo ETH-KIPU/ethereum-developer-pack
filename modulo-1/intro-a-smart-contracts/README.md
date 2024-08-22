@@ -8,4 +8,4 @@ icon: ethereum
 
 **Duración:** 6 horas (2 clases de 3 horas cada una).
 
-<figure><img src="../.gitbook/assets/EDP_mod1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/EDP_mod1.png" alt=""><figcaption></figcaption></figure>

@@ -2,7 +2,7 @@
 
 Las wallets o billeteras de criptomonedas en web3 son programas o hardware diseñado para almacenar las claves digitales que permiten el acceso a nuestros activos en la blockchain. Las wallets nos abren las puertas del Jardín Infinito:
 
-<figure><img src="../../.gitbook/assets/EDP_mod1_7_gb.png" alt="" width="282"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/EDP_mod1_7_gb.png" alt="" width="282"><figcaption></figcaption></figure>
 
 #### Qué se puede hacer con una wallet
 

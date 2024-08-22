@@ -1,6 +1,6 @@
 # Ciclo de vida
 
-<figure><img src="../../../.gitbook/assets/EDP_mod1_13_gb.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/EDP_mod1_13_gb.png" alt=""><figcaption></figcaption></figure>
 
 **Paso 1**
 
@@ -40,4 +40,4 @@ Cuando otro bloque justificado se añade sobre el bloque justificado anterior, e
 
 De esta manera el bloque final es producido y la transacción queda registrada para siempre.
 
-<figure><img src="../../../.gitbook/assets/EDP_mod1_14_gb.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/EDP_mod1_14_gb.png" alt=""><figcaption></figcaption></figure>

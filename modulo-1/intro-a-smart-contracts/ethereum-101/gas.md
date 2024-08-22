@@ -34,7 +34,7 @@ Supongamos que queremos ejecutar una transacción de 21000 gas, como una transfe
 
 El cálculo del fee a pagar por esta transacción, asumiendo que el precio del ETH es US$ 1600, se muestra en el siguiente gráfico:
 
-<figure><img src="../../.gitbook/assets/EDP_mod1_15_gb.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/EDP_mod1_15_gb.png" alt=""><figcaption></figcaption></figure>
 
 ### Límite de gas
 
@@ -44,4 +44,4 @@ Si bien la transacción de nuestro ejemplo requería 21,000 unidades de gas, lo 
 
 En sitios como [EtherScan](https://etherscan.io/gastracker) y [Ultra sound money](https://ultrasound.money/) se puede monitorear los precios promedios de mercado de gas. Ten en cuenta que el precio del gas puede variar mucho de un momento a otro, variaciones de 500% o más en pocos minutos no son raras, es importante monitorearlo para no pagar demasiado por una transacción.
 
-<figure><img src="../../.gitbook/assets/EDP_mod1_16_gb.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/EDP_mod1_16_gb.png" alt=""><figcaption></figcaption></figure>

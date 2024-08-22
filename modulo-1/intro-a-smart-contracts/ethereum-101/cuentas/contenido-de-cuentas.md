@@ -2,7 +2,7 @@
 
 En el gráfico siguiente podemos comparar el contenido de una EOA y una contract account. Si bien una EOA tiene cuatro campos para almacenar información, no utiliza los campos de almacenamiento ni código puesto que estos sólo se habilitan para las cuentas de smart contracts.
 
-<figure><img src="../../../.gitbook/assets/EDP_mod1_9_gb.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/EDP_mod1_9_gb.png" alt=""><figcaption></figcaption></figure>
 
 Los campos son los siguientes:
 

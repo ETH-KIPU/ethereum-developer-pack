@@ -8,7 +8,7 @@ Revisemos cada uno de estos conceptos.
 
 Las redes se refieren a la forma en que los nodos se organizan para validar y mantener la integridad de la red. Las redes pueden ser centralizadas, descentralizadas o distribuidas, según cómo se administren y quién tenga el control de la red.
 
-<figure><img src="../../.gitbook/assets/EDP_mod1_1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/EDP_mod1_1.png" alt=""><figcaption></figcaption></figure>
 
 #### Centralizada
 
@@ -77,7 +77,7 @@ Un hash (picadillo en español) es un código que se obtiene al aplicar una func
 
 <div align="left" data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/EDP_mod1_2.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/EDP_mod1_2.png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -124,7 +124,7 @@ Aquí hay una descripción simplificada de cómo funciona un árbol de Merkle:
 
 En un árbol de Merkle, cambiar un solo dato en un bloque tendría un impacto en los resúmenes de hash en todos los niveles superiores del árbol, lo que significa que se puede detectar fácilmente si se ha alterado un dato.
 
-<figure><img src="../../.gitbook/assets/EDP_mod1_3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/EDP_mod1_3.png" alt=""><figcaption></figcaption></figure>
 
 En la construcción de nuevos bloques, la raíz de Merkle se incluye en la cabecera del bloque y se utiliza para verificar la autenticidad de las transacciones en ese bloque. Si tienes la raíz de Merkle y un conjunto de transacciones, puedes verificar eficientemente si una transacción específica está incluida en el bloque sin necesidad de acceder a todas las transacciones.
 

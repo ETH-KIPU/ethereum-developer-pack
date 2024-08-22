@@ -10,7 +10,7 @@ Las blockchains híbridas combinan características de las blockchains públicas
 
 Cada tipo de blockchain tiene sus propias ventajas y desventajas, y la elección de una u otra dependerá de las necesidades específicas del usuario o de la organización que utiliza la red.
 
-<figure><img src="../../.gitbook/assets/EDP_mod1_4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/EDP_mod1_4.png" alt=""><figcaption></figcaption></figure>
 
 |           | Privada                                             | Pública                                                     | Hibrida                                     |
 | --------- | --------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------- |
