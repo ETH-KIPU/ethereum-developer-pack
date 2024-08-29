@@ -4,10 +4,9 @@
 
 Se requiere tener previamente instalado lo siguiente:
 
-* Node.js
-* npm
+* [Node (>= v18.17)](https://nodejs.org/en/download/)
 * Visual Studio Code
-* Git
+* [Git](https://git-scm.com/downloads)
 
 En los prerrequisitos de este módulo puedes encontrar las instrucciones para la instalación de estos componentes.
 
@@ -24,7 +23,7 @@ Tenemos dos opciones para instalar Scaffold-ETH:
 **Opción 1: Clonar el repositorio de GitHub e instalar las dependencias:**
 
 ```bash
-git clone <https://github.com/scaffold-eth/scaffold-eth-2.git>
+git clone https://github.com/scaffold-eth/scaffold-eth-2.git
 cd scaffold-eth-2
 yarn install
 ```
@@ -35,11 +34,10 @@ yarn install
 npx create-eth@latest
 ```
 
-En este procedimiento se nos solicitará una serie de definiciones:
+Con esta opción, tendremos más opciones de configuración a la hora de instalar SE-2. Se nos solicitará una serie de definiciones:
 
 * **Nombre del proyecto:** Ingresa el nombre de tu proyecto.
 * **Solidity Framework:** Elige tu framework de Solidity favorito, Hardhat o Foundry.
-* **Instalar paquetes?:** Presiona `Enter` para `yes` (opción por defecto) o escribe  `n` y presiona  `Enter` para no.
 
 Una vez hecha la configuración muévete hacia el directorio del proyecto:
 
@@ -47,7 +45,7 @@ Una vez hecha la configuración muévete hacia el directorio del proyecto:
 
 Una vez instalado, luego de movernos al repositorio de trabajo y activar VS Code (`code.`) debemos ejecutar tres comandos utilizando tres ventanas distintas de la terminal:
 
-**Ventana 1: Instalar la blockchain local.**
+**Ventana 1: Inicializar la blockchain local.**
 
 ```bash
 yarn chain
@@ -66,7 +64,7 @@ Este comando despliega un contrato inteligente de prueba en la red local. Este c
 * Hardhat: `packages/hardhat/contracts`
 * Foundry: `packages/foundry/contracts`
 
-El comando  `yarn deploy` usa un script para desplegar el contrato en la red local. Puedes personalizar el scrip de despliegue que está ubicado en:
+El comando  `yarn deploy` usa un script para desplegar el contrato en la red local. Puedes personalizar el script de despliegue que está ubicado en:
 
 * Hardhat :`packages/hardhat/deploy`
 * Foundry:  `packages/foundry/script`
