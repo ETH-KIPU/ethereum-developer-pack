@@ -81,7 +81,9 @@ Si vas a la dirección `http://localhost:3000`. podrás ver la app funcionando.
 
 <figure><img src="../../../../.gitbook/assets/Untitled (9).png" alt=""><figcaption></figcaption></figure>
 
-Ya puedes interactuar con tu smart contract utilizando el componente de contrato o la UI de ejemplo en el Front-End.
+Si revisas arriba a la derecha verás que se te ha generado una wallet automáticamente. Esta es una BurnerWallet, una wallet que se crea cada vez que se abre la dapp en un browser. La private key es guardada en texto plano en el LocalStorage del browser, lo cual no es muy seguro, pero es muy cómodo para probar tus contratos y dapps. No es necesario aprobar las transacciones o confirmar las firmas, por lo cual se hace más ágil probar funcionalidades con esta wallet, y puedes abrir la dapp en una ventana de incógnito del browser o con otro perfil, y tendrás asignada una nueva wallet/address, por lo cual puedes probar facilmente funcionalidades desde distintos perfiles de usuarios.
+
+Puedes interactuar con tu smart contract utilizando el componente de contrato o la UI de ejemplo en el Front-End.
 
 La dapp de ejemplo permite registrar saludos y lleva la cuenta de cuántos saludos se registraron desde una address determinada. También permite al owner del contrato retirar los fondos que tenga el contrato.
 
@@ -90,3 +92,7 @@ La dapp de ejemplo permite registrar saludos y lleva la cuenta de cuántos salud
 Empieza a hacer cambios en el contrato de prueba ubicado en `packages/hardhat/contracts` , despliégalo utilizando `yarn deploy`y observa como el Front-End se va actualizando de forma automática como respuesta a los cambios realizados en el contrato.
 
 Si no tienes ETH para ejecutar las transacciones utiliza el faucet incorporado que te asignará 1 ETH por solicitud.
+
+Puedes también utilizar el Block Explorer, accediendo desde el link abajo a la izquierda. En el Block Exlorer podrás revisar las transacciones que se ejecutaron en la blockchain local, similar a lo que podrías hacer con Etherscan.
+
+Scaffold-ETH 2 incorpora tambien componentes y hooks, muy útiles para un desarrollo ágil de dapps. Puedes encontrar más información de los mismos en la [documentación de Scaffold-ETH 2](https://docs.scaffoldeth.io/).
