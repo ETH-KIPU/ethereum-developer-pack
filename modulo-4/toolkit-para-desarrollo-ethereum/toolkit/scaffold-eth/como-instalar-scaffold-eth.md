@@ -34,7 +34,7 @@ yarn install
 npx create-eth@latest
 ```
 
-Con esta opción, tendremos más opciones de configuración a la hora de instalar SE-2. Se nos solicitará una serie de definiciones:
+Con este modo de instalación, tendremos más opciones de configuración a la hora de instalar SE-2. Se nos solicitará una serie de definiciones:
 
 * **Nombre del proyecto:** Ingresa el nombre de tu proyecto.
 * **Solidity Framework:** Elige tu framework de Solidity favorito, Hardhat o Foundry.
