@@ -107,7 +107,7 @@
 
 ## Módulo 4
 
-* [Toolkit para desarrollo Ethereum](modulo-4/toolkit-para-desarrollo-ethereum/README.md)
+* [Toolkit para desarrollo en Ethereum](modulo-4/toolkit-para-desarrollo-ethereum/README.md)
   * [Requisitos para el módulo 4](modulo-4/toolkit-para-desarrollo-ethereum/requisitos-para-el-modulo-4/README.md)
     * [Terminal](modulo-4/toolkit-para-desarrollo-ethereum/requisitos-para-el-modulo-4/terminal.md)
     * [Git y Github](modulo-4/toolkit-para-desarrollo-ethereum/requisitos-para-el-modulo-4/git-y-github.md)
