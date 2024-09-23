@@ -1,10 +1,10 @@
 # Cómo funciona la Blockchain
 
-Para entender cómo funciona una blockchain utilizaremos la primera y más conocida: Bitcoin. La explicaremos de forma simplificada pero mostrando los principales elementos de la blockchain.
+Para entender cómo funciona una blockchain utilizaremos como ejemplo la primera: Bitcoin. La explicaremos de forma simplificada pero mostrando los principales elementos de la blockchain.
 
 Partamos del hecho de que existe una red distribuida de tipo P2P de computadoras (nodos).
 
-Una red P2P que es clave para entender cómo funciona una blockchain Esta red está permanentemente activa y se encarga de hacer funcionar el sistema de Bitcoin, para ello todos los nodos corren un mismo programa que contiene las reglas de funcionamiento de la blockchain.
+El concepto de red P2P es clave para entender cómo funciona una blockchain. Esta red está permanentemente activa y se encarga de hacer funcionar el sistema de Bitcoin, para ello todos los nodos corren un mismo programa que contiene las reglas de funcionamiento de la blockchain.
 
 Empecemos:
 

@@ -140,7 +140,7 @@ Entre las principales herramientas de criptografía utilizadas en blockchain ten
 * ECDSA (Algoritmo de firma digital de curva elíptica) es un algoritmo de firma digital utilizado en blockchain para verificar la autenticidad de las transacciones. Cada transacción en la cadena de bloques se firma digitalmente con la clave privada del remitente utilizando ECDSA. Entonces, la red verifica la firma utilizando la clave pública del remitente para asegurarse de que la transacción es auténtica. ECDSA es un algoritmo seguro y eficiente que se utiliza ampliamente en blockchain.
 * RIPEMD-160 es una función hash criptográfica utilizada en blockchain para generar direcciones de criptomonedas únicas. Cuando se crea una billetera de criptomonedas, se genera una clave privada única. Luego, se utiliza RIPEMD-160 para generar una dirección pública única a partir de la clave privada. La dirección pública se utiliza para enviar y recibir criptomonedas. RIPEMD-160 es una función hash segura y eficiente que se utiliza ampliamente en blockchain para generar direcciones únicas y proteger la privacidad de los usuarios.
 
-#### **Por qué decimos que decimos que bitcoin es una criptomoneda**
+#### **Por qué decimos que bitcoin es una criptomoneda**
 
 Siempre escuchamos que bitcoin es una criptomoneda. Ahora podemos entender por qué es cripto: su existencia está soportada en varias herramientas de criptografía que permiten:
 
