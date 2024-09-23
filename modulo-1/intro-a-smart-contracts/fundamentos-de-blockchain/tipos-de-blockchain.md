@@ -1,12 +1,12 @@
 # Tipos de Blockchain
 
-En términos generales, existen tres tipos de blockchains: privadas, públicas y híbridas.
+En términos generales, existen tres tipos de blockchains: privadas, públicas e híbridas.
 
 Las blockchains privadas son redes controladas por una entidad centralizada y solo un grupo selecto de participantes tiene permiso para acceder y validar las transacciones.
 
 Las blockchains públicas, en cambio, son redes descentralizadas y cualquier persona puede unirse, enviar transacciones y validarlas.
 
-Las blockchains híbridas combinan características de las blockchains públicas y privadas, ofreciendo flexibilidad y ajustabilidad según las necesidades de los usuarios.
+Las blockchains híbridas combinan características de las blockchains públicas y privadas, ofreciendo flexibilidad y adaptabilidad según las necesidades de los usuarios.
 
 Cada tipo de blockchain tiene sus propias ventajas y desventajas, y la elección de una u otra dependerá de las necesidades específicas del usuario o de la organización que utiliza la red.
 
