@@ -2,7 +2,7 @@
 
 Ethereum es una máquina de estados y la EVM es el procesador de transacciones que permite los cambios de estados.
 
-El estado es una instantánea de la información que se almacena en la blockchain en un momento determinado.
+El estado es una fotografía de la información que se almacena en la blockchain en un momento determinado.
 
 El estado de una blockhain incluye:
 
