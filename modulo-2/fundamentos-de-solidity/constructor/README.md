@@ -10,8 +10,6 @@ El constructor se ejecuta solo una vez, en el momento en que el contrato es desp
 
 **Parámetros:** Al igual que otras funciones, los constructores pueden tener parámetros, lo que permite personalizar la configuración inicial del contrato durante el despliegue.
 
-**No Genera Dirección:** A diferencia de las funciones normales, el constructor no tiene una dirección msg.sender. Durante la creación del contrato, msg.sender es la dirección que despliega el contrato.
-
 **Ausencia de Valor de Retorno:** Los constructores no tienen un valor de retorno.
 
 Ejemplo de un Constructor en Solidity:
