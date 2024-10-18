@@ -159,3 +159,7 @@
     * [El test Rekt](modulo-5/seguridad-pruebas-y-auditoria/auditoria-de-smart-contracts/el-test-rekt.md)
     * [Retos](modulo-5/seguridad-pruebas-y-auditoria/auditoria-de-smart-contracts/retos.md)
     * [Recursos adicionales](modulo-5/seguridad-pruebas-y-auditoria/auditoria-de-smart-contracts/recursos-adicionales.md)
+
+## Contribuye
+
+* [Kipu Explorer](contribuye/kipu-explorer.md)
