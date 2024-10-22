@@ -13,5 +13,5 @@ icon: book-atlas
 Toda la información [aquí](https://ethkipu.notion.site/Est-ndares-librer-as-y-patrones-934170ce0a054c8b88d095b08a40df02).
 
 {% hint style="info" %}
-Este documento es una herramienta pedagógica que actualizamos constantemente. Creemos en la importancia de contenidos open-source. Si quieres mejorar los contenidos, únete a nuestro de [Kipu Explorers](../../contribuye/kipu-explorer.md).
+Este documento es una herramienta pedagógica que actualizamos constantemente. Creemos en la importancia de contenidos open-source. Si quieres mejorar los contenidos, únete a nuestro programa de [Kipu Explorers](../../contribuye/kipu-explorer.md).
 {% endhint %}

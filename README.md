@@ -5,5 +5,5 @@ El Ethereum Developer Pack es grupo de módulos para aprender a desarrollar en e
 <figure><img src=".gitbook/assets/EDP.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Este documento es una herramienta pedagógica que actualizamos constantemente. Creemos en la importancia de contenidos open-source. Si quieres mejorar los contenidos, únete a nuestro de [Kipu Explorers](contribuye/kipu-explorer.md).
+Este documento es una herramienta pedagógica que actualizamos constantemente. Creemos en la importancia de contenidos open-source. Si quieres mejorar los contenidos, únete a nuestro programa de [Kipu Explorers](contribuye/kipu-explorer.md).
 {% endhint %}
