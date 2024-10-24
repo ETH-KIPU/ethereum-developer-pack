@@ -42,6 +42,8 @@ function externalFunction() external {
 
 🚨 La visibilidad incorrecta puede llevar a vulnerabilidades. Por ejemplo, una función que modifica el estado del contrato y está marcada erróneamente como **`public`** puede ser explotada.
 
+<figure><img src="../../.gitbook/assets/Funciones (2).png" alt=""><figcaption></figcaption></figure>
+
 ### Indicadores de mutabilidad o comportamiento
 
 Sirven para indicar si la función hace cambios en el almacenamiento persistente (storage) del contrato, también indica si la función puede recibir Ether.
