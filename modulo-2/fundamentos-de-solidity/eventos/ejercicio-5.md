@@ -16,7 +16,7 @@ Incorporaremos en nuestro contrato un evento que informará cuando se ha cambiad
 
 ```solidity
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.19;
+pragma solidity ^0.8.19;
 
 /// @title Concepts: event
 /// @author Solange Gueiros

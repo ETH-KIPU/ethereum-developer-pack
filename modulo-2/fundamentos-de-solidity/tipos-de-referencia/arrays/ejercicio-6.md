@@ -17,7 +17,7 @@ En este ejercicio utilizaremos el concepto de arrays dinámicos para almacenar u
 
 ```solidity
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.19;
+pragma solidity ^0.8.19;
 
 /// @title Concepts: array = list of infos stored
 /// @author Solange Gueiros

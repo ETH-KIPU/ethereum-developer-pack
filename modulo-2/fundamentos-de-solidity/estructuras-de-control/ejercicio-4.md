@@ -16,7 +16,7 @@ En este ejercicio haremos una variante respecto al ejercicio 3 pues verificaremo
 
 ```solidity
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.19;
+pragma solidity ^0.8.19;
 
 /// @title Concepts: Type address, msg.sender, owner, if
 /// @author Solange Gueiros

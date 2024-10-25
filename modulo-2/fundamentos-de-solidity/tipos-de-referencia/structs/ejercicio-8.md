@@ -14,7 +14,7 @@ Cada address tendrá asignado un array de structs. En cada struct se puede guard
 
 ```solidity
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.19;
+pragma solidity ^0.8.19;
 
 /// @title Concepts: All together 3
 /// @author Solange Gueiros

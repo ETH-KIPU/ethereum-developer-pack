@@ -15,7 +15,7 @@ Crearemos una whitelist para que solo las personas que estén en ella puedan mod
 
 ```solidity
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.19;
+pragma solidity ^0.8.19;
 
 /// @title Concepts: mapping and access control: whiteList
 /// @author Solange Gueiros
