@@ -15,7 +15,7 @@ En este ejercicio utilizaremos un constructor para inicializar el valor de la va
 
 ```solidity
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.19;
+pragma solidity ^0.8.19;
 
 /// @title Concepts: Constructor
 /// @author Solange Gueiros
