@@ -18,6 +18,8 @@ En Solidity, hay tres tipos de ubicaciones de almacenamiento para variables, cad
    * **Costo**: Es generalmente más barato en términos de gas que **`memory`** porque los datos en **`calldata`** no se copian sino que se leen directamente de la transacción o llamada.
    * **Acceso**: Es de solo lectura y no puede modificarse.
 
+<figure><img src="../../.gitbook/assets/Tipos de almacenamiento.png" alt=""><figcaption></figcaption></figure>
+
 **Ejemplo en Código**:
 
 ```solidity
