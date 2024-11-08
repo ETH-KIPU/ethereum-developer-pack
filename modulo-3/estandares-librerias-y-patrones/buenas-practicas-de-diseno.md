@@ -31,8 +31,8 @@ El diseño de contratos inteligentes en Solidity requiere un enfoque cuidadoso p
 
 ### 5. Hacer pruebas exhaustivas
 
-* **Prueba tu código**: Realiza pruebas unitarias y de integración que cubran no solo el flujo principal de uso, sino también casos límite y comportamientos inesperados. Escribir pruebas unitarias completas es vital para asegurar que tu contrato inteligente funciona como se espera. Herramientas como Truffle y Hardhat pueden ayudar a automatizar el proceso de prueba, lo que facilita la detección temprana de errores y asegura la fiabilidad del código.
-* **Utilizar herramientas de análisis**: Aplica herramientas de análisis estático y dinámico y frameworks de testing como Truffle, Hardhat, o MythX para detectar vulnerabilidades y errores en tu código.
+* **Prueba tu código**: Realiza pruebas unitarias y de integración que cubran no solo el flujo principal de uso, sino también casos límite y comportamientos inesperados. Escribir pruebas unitarias completas es vital para asegurar que tu contrato inteligente funciona como se espera. Herramientas como Foundry y Hardhat pueden ayudar a automatizar el proceso de prueba, lo que facilita la detección temprana de errores y asegura la fiabilidad del código.
+* **Utilizar herramientas de análisis**: Aplica herramientas de análisis estático y dinámico y frameworks de testing como Foundry, Hardhat, o MythX para detectar vulnerabilidades y errores en tu código.
 * **Usar herramientas de cobertura de código:** Mida la cobertura de prueba de su código utilizando herramientas como Solidity Coverage para identificar áreas no probadas o insuficientemente probadas.
 
 ### 6. Revisión y auditoría
