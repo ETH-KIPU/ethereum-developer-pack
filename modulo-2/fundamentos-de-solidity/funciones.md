@@ -62,19 +62,11 @@ Estos son los elementos que conforman una función:
 * **Nombre de la Función:** Seguido de **`function`**, se coloca el nombre de la función. Debe ser único dentro del contrato y seguir las convenciones de nomenclatura de Solidity (generalmente camelCase).
 * **Parámetros (Opcionales):** Entre paréntesis, se definen los parámetros de entrada de la función, si los hay. Cada parámetro consta de un tipo de dato seguido de un nombre de variable. Los parámetros están separados por comas.
 * **Visibilidad de la Función:** A continuación, se especifica la visibilidad de la función (**`public`**, **`private`**, **`internal`**, **`external`**). Esto determina cómo y desde dónde se puede acceder a la función.
-* **Modificadores (Opcionales):** Los modificadores son palabras clave o nombres de modificadores personalizados que afectan el comportamiento de la función: .**`pure`,`view`,`payable`** .
+* **Modificadores (Opcionales):** Los modificadores son palabras clave o nombres de modificadores personalizados que afectan el comportamiento de la función: .**`pure`,**`view`**,**`payable` .
 * **Valores de Retorno (Opcionales):** Después de los modificadores, se puede especificar el tipo de valor o valores que la función devuelve, encerrado entre la palabra clave **`returns`** y paréntesis. Si se devuelven múltiples valores, se separan por comas.
 * **Cuerpo de la Función:** El cuerpo de la función está encerrado entre llaves {}. Aquí es donde se escribe la lógica que se ejecutará cuando se llame a la función.
 
-<div>
-
-<img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/1c4f016a-3ef4-422a-bee4-76cbe41f54a1/ace209d7-33ec-4757-bdb1-cb1b776ae2d5/Untitled.png" alt="">
-
- 
-
-<figure><img src="../../.gitbook/assets/Funciones.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/1c4f016a-3ef4-422a-bee4-76cbe41f54a1/ace209d7-33ec-4757-bdb1-cb1b776ae2d5/Untitled.png" alt=""> <figure><img src="../../.gitbook/assets/Funciones.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Otros aspectos relevantes de las funciones
 
