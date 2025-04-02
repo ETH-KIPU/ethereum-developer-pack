@@ -1,6 +1,6 @@
 # Ethereum Developer Pack
 
-El Ethereum Developer Pack es grupo de módulos para aprender a desarrollar en el ecosistema de Ethereum. Encontrarás información sobre los conceptos básicos de blockchain hasta seguridad de Smart Contracts.
+El **Ethereum Developer Pack** es un conjunto de módulos para aprender a desarrollar en el ecosistema de Ethereum. Encontrarás información sobre los conceptos básicos de blockchain hasta seguridad de Smart Contracts.
 
 <figure><img src=".gitbook/assets/EDP.png" alt=""><figcaption></figcaption></figure>
 
