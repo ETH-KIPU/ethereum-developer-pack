@@ -30,14 +30,14 @@ address attackedAddress = 0x1234;
 }
 ```
 
-En el contrato anterior `attackedAddress` es la dirección del contrato que contienen ether al que se va a atacar. Un atacante puede desplegar este contrato e iniciar un ataque utilizando la función `attack()` que drenará todos los fondos del contrato atacado.
+No contrato anterior, `attackedAddress` é o endereço do contrato que contém ether e que será alvo do ataque. Um invasor pode implantar esse contrato e iniciar um ataque utilizando a função `attack()`, que drenará todos os fundos do contrato vulnerável.
 
-**Mitigación**:
+**Mitigação:**
 
-* Usar el patrón de "Retirar" en lugar del patrón de "Enviar".
-* Actualizar el estado antes de hacer llamadas externas.
-* Limitar el uso de llamadas externas y usar bibliotecas de seguridad como OpenZeppelin.
+* Utilizar o padrão de "Retirada" (_withdraw pattern_) em vez do padrão de "Envio" (_send pattern_).
+* Atualizar o estado interno antes de realizar chamadas externas.
+* Limitar o uso de chamadas externas e utilizar bibliotecas de segurança, como a OpenZeppelin.
 
-**Referencia**:
+**Referência:**
 
 * [OpenZeppelin ReentrancyGuard](https://docs.openzeppelin.com/contracts/4.x/api/security#ReentrancyGuard)
