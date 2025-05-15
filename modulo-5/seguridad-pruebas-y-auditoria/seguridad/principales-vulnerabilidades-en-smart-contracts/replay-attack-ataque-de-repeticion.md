@@ -1,11 +1,12 @@
-# Replay attack (ataque de repetición)
+# Ataque de repetição (Replay attack)
 
-Un ataque de repetición firmado en un contrato inteligente es un tipo de vulnerabilidad de seguridad en la que un atacante intercepta un mensaje firmado válido y luego lo reproduce en el contrato. El mensaje típicamente está firmado con una clave privada y contiene instrucciones ejecutables para el contrato inteligente. Al reproducir el mensaje, un atacante puede engañar al contrato inteligente para que ejecute las mismas instrucciones nuevamente, lo que puede resultar en un comportamiento no deseado o incluso en pérdidas financieras.
+Um ataque de repetição assinado em um contrato inteligente é um tipo de vulnerabilidade de segurança em que um invasor intercepta uma mensagem assinada válida e a reproduz no contrato. A mensagem normalmente é assinada com uma chave privada e contém instruções executáveis para o contrato inteligente. Ao reproduzir essa mensagem, o invasor pode enganar o contrato para que execute novamente as mesmas instruções, o que pode resultar em comportamentos indesejados ou até perdas financeiras.
 
-**Ejemplo:**
+**Exemplo:**\
+Um contrato inteligente permite que os usuários retirem fundos de sua conta por meio do envio de uma mensagem autorizada e assinada. Um invasor pode interceptar uma mensagem de saque válida de um usuário legítimo e, posteriormente, reproduzir essa mensagem. Mesmo que o contexto tenha mudado, o contrato inteligente pode considerar a mensagem assinada ainda válida, por ter sido assinada digitalmente. Isso poderia permitir que o invasor retirasse fundos da conta do usuário.
 
-Un contrato inteligente que permite a los usuarios retirar fondos de su cuenta mediante el envío de un mensaje autorizado y firmado. Un atacante podría interceptar un mensaje de retiro válido de un usuario legítimo y luego reproducir ese mensaje más tarde. Aunque el contexto haya cambiado, el contrato inteligente asumiría que el mensaje firmado sigue siendo válido porque ha sido firmado digitalmente. Esto podría permitir al atacante retirar fondos de la cuenta del usuario.
+**Mitigação:**\
+Para prevenir ataques de repetição assinados, os desenvolvedores de contratos inteligentes podem implementar várias medidas de segurança, incluindo:
 
-**Mitigación:**
-
-Para prevenir los ataques de repetición firmados, los desarrolladores de contratos inteligentes pueden implementar varias medidas de seguridad, incluyendo el uso de identificadores de mensaje únicos y la adición de restricciones basadas en el tiempo para la validez de los mensajes firmados.
+* O uso de identificadores únicos para cada mensagem (_nonces_);
+* A adição de restrições baseadas em tempo para a validade das mensagens assinadas.

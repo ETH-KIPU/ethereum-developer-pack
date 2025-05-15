@@ -140,7 +140,7 @@
     * [Una mentalidad distinta de diseño](modulo-5/seguridad-pruebas-y-auditoria/seguridad/una-mentalidad-distinta-de-diseno.md)
     * [Principais vulnerabilidades em contratos inteligentes](modulo-5/seguridad-pruebas-y-auditoria/seguridad/principales-vulnerabilidades-en-smart-contracts/README.md)
       * [Ataque de reentrância (Reentrancy attack)](modulo-5/seguridad-pruebas-y-auditoria/seguridad/principales-vulnerabilidades-en-smart-contracts/reentrancy-attack-ataque-de-reentrada.md)
-      * [Replay attack (ataque de repetición)](modulo-5/seguridad-pruebas-y-auditoria/seguridad/principales-vulnerabilidades-en-smart-contracts/replay-attack-ataque-de-repeticion.md)
+      * [Ataque de repetição (Replay attack)](modulo-5/seguridad-pruebas-y-auditoria/seguridad/principales-vulnerabilidades-en-smart-contracts/replay-attack-ataque-de-repeticion.md)
       * [Price Oracle Manipulation (Manipulación de Oráculos de Precios)](modulo-5/seguridad-pruebas-y-auditoria/seguridad/principales-vulnerabilidades-en-smart-contracts/price-oracle-manipulation-manipulacion-de-oraculos-de-precios.md)
       * [Missing Access Control (Pérdida de Control de Acceso)](modulo-5/seguridad-pruebas-y-auditoria/seguridad/principales-vulnerabilidades-en-smart-contracts/missing-access-control-perdida-de-control-de-acceso.md)
       * [Reward Manipulation (Manipulación de Recompensas)](modulo-5/seguridad-pruebas-y-auditoria/seguridad/principales-vulnerabilidades-en-smart-contracts/reward-manipulation-manipulacion-de-recompensas.md)
