@@ -1,12 +1,11 @@
-# Missing Access Control (Pérdida de Control de Acceso)
+# Falta de Controle de Acesso (Missing Access Control)
 
-Ocurre cuando las funciones críticas dentro del contrato no están protegidas adecuadamente con restricciones de acceso. Esto permite que cualquier usuario, incluso aquellos no autorizados, pueda ejecutar esas funciones, lo que puede llevar a la manipulación de los datos del contrato, la apropiación de fondos, o la interrupción de su funcionamiento.
+Essa vulnerabilidade ocorre quando funções críticas dentro de um contrato inteligente não estão devidamente protegidas por restrições de acesso. Isso permite que qualquer usuário, mesmo não autorizado, execute essas funções, o que pode resultar na manipulação de dados do contrato, apropriação indevida de fundos ou interrupção do seu funcionamento.
 
-**Ejemplo:**
+**Exemplo:**\
+Imagine um contrato inteligente que gerencia um fundo comum, onde várias pessoas podem depositar e sacar recursos. O contrato possui uma função `withdrawAllFunds` que permite retirar todos os fundos e transferi-los para um endereço específico.
 
-Imagina un contrato inteligente que gestiona un fondo común, donde varias personas pueden depositar y retirar fondos. El contrato tiene una función `withdrawAllFunds` que permite retirar todos los fondos del contrato y transferirlos a una dirección específica.
-
-Si esta función no está protegida por un mecanismo de control de acceso, cualquier usuario podría llamar a `withdrawAllFunds` y especificar su propia dirección, retirando todos los fondos del contrato sin restricciones. Esto resultaría en la pérdida de todos los fondos depositados por otros usuarios.
+Se essa função não for protegida por um controle de acesso, qualquer usuário poderá chamá-la e indicar seu próprio endereço, retirando todos os fundos do contrato sem restrições — o que resultaria na perda de todos os recursos depositados por outros usuários.
 
 ```solidity
 contract VulnerableContract {
@@ -29,11 +28,12 @@ contract VulnerableContract {
 }
 ```
 
-En este ejemplo, la función `withdrawAllFunds` no tiene ningún control de acceso, por lo que cualquier persona podría ejecutarla, incluso si no es el propietario del contrato.
+Neste exemplo, a função `withdrawAllFunds` não possui nenhum controle de acesso, portanto qualquer pessoa pode executá-la, mesmo que não seja o proprietário do contrato.
 
-**Mitigación:**
+**Mitigação:**
 
-1.  **Implementar Modificadores de Acceso:** La solución más directa es implementar modificadores que restrinjan el acceso a las funciones críticas solo a usuarios específicos, como el propietario del contrato o una lista de administradores. En Solidity, esto se puede hacer con un modificador `onlyOwner`, que permite que solo el propietario del contrato ejecute ciertas funciones.
+1.  **Implementar Modificadores de Acesso:**\
+    A solução mais direta é aplicar modificadores que restrinjam o acesso a funções críticas apenas a usuários autorizados, como o dono do contrato ou administradores específicos. Em Solidity, isso pode ser feito com um modificador `onlyOwner`:
 
     ```solidity
     modifier onlyOwner() {
@@ -48,6 +48,6 @@ En este ejemplo, la función `withdrawAllFunds` no tiene ningún control de acce
     }
     ```
 
-    Con este modificador, solo el propietario del contrato puede llamar a la función `withdrawAllFunds`.
-2. **Usar bibliotecas de control de acceso:** Utilizar bibliotecas probadas y bien auditadas, como [`OpenZeppelin AccessControl`](https://docs.openzeppelin.com/contracts/2.x/access-control), para manejar los permisos de manera segura y estructurada. Estas bibliotecas permiten la creación de roles específicos y la asignación de permisos a funciones concretas.
-3. **Pruebas y simulaciones:** Implementar pruebas rigurosas que simulen ataques potenciales, donde usuarios no autorizados intenten acceder a funciones críticas. Estas pruebas ayudan a garantizar que todas las funciones importantes estén adecuadamente protegidas.
+    Com esse modificador, apenas o proprietário do contrato poderá chamar `withdrawAllFunds`.
+2. **Usar Bibliotecas de Controle de Acesso:** Utilize bibliotecas bem testadas e auditadas, como [`OpenZeppelin AccessControl`](https://docs.openzeppelin.com/contracts/2.x/access-control), para gerenciar permissões de forma segura e estruturada. Essas bibliotecas permitem a criação de papéis (roles) e atribuição de permissões específicas a cada função.
+3. **Testes e Simulações:** Realize testes rigorosos que simulem tentativas de acesso não autorizado a funções críticas. Isso garante que os mecanismos de segurança estejam funcionando corretamente e evita falhas em ambientes reais.
