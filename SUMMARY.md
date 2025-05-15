@@ -144,7 +144,7 @@
       * [Manipulação de Oráculos de Preços (Price Oracle Manipulation)](modulo-5/seguridad-pruebas-y-auditoria/seguridad/principales-vulnerabilidades-en-smart-contracts/price-oracle-manipulation-manipulacion-de-oraculos-de-precios.md)
       * [Falta de Controle de Acesso (Missing Access Control)](modulo-5/seguridad-pruebas-y-auditoria/seguridad/principales-vulnerabilidades-en-smart-contracts/missing-access-control-perdida-de-control-de-acceso.md)
       * [Manipulação de Recompensas (Reward Manipulation)](modulo-5/seguridad-pruebas-y-auditoria/seguridad/principales-vulnerabilidades-en-smart-contracts/reward-manipulation-manipulacion-de-recompensas.md)
-      * [Failure to Initialize (Falla al Inicializar)](modulo-5/seguridad-pruebas-y-auditoria/seguridad/principales-vulnerabilidades-en-smart-contracts/failure-to-initialize-falla-al-inicializar.md)
+      * [Falha na Inicialização (Failure to Initialize)](modulo-5/seguridad-pruebas-y-auditoria/seguridad/principales-vulnerabilidades-en-smart-contracts/failure-to-initialize-falla-al-inicializar.md)
       * [Front-running](modulo-5/seguridad-pruebas-y-auditoria/seguridad/principales-vulnerabilidades-en-smart-contracts/front-running.md)
       * [Invariant Breaks (Ruptura de invariantes)](modulo-5/seguridad-pruebas-y-auditoria/seguridad/principales-vulnerabilidades-en-smart-contracts/invariant-breaks-ruptura-de-invariantes.md)
       * [Mishandling of ETH (Mal manejo de ETH)](modulo-5/seguridad-pruebas-y-auditoria/seguridad/principales-vulnerabilidades-en-smart-contracts/mishandling-of-eth-mal-manejo-de-eth.md)

@@ -1,10 +1,10 @@
-# Failure to Initialize (Falla al Inicializar)
+# Falha na Inicialização (Failure to Initialize)
 
-Ocurre cuando un contrato no se inicializa correctamente antes de ser utilizado, lo que puede llevar a que variables críticas, como el propietario del contrato o configuraciones importantes, queden en un estado por defecto. Esto puede permitir que cualquier usuario tome el control del contrato o que el contrato funcione de manera inesperada.
+Ocorre quando um contrato não é corretamente inicializado antes de seu uso, deixando variáveis críticas, como o endereço do proprietário ou configurações essenciais, em estados padrão. Isso pode permitir que qualquer usuário assuma o controle do contrato ou que ele funcione de maneira inesperada.
 
-**Ejemplo:**
+**Exemplo:**
 
-Imagina que tienes un contrato inteligente que debería ser inicializado con una dirección de propietario (`owner`) que tiene privilegios especiales, como la capacidad de pausar o destruir el contrato. Si el contrato no tiene un constructor que asigne la dirección del propietario o si se despliega utilizando un proxy sin una función de inicialización adecuada, la variable `owner` podría quedar en un estado predeterminado, como la dirección `0x0` o cualquier otra dirección por defecto.
+Imagine um contrato inteligente que deveria ser inicializado com o endereço do proprietário (_owner_), que possui privilégios especiais como pausar ou destruir o contrato. Se o contrato não tiver um construtor que defina esse proprietário, ou se for implantado via proxy sem uma função de inicialização adequada, a variável `owner` pode permanecer no valor padrão — como o endereço `0x0` ou outro endereço padrão.
 
 ```solidity
 contract VulnerableContract {
@@ -21,11 +21,11 @@ contract VulnerableContract {
 }
 ```
 
-En este ejemplo, si la función `initialize` no se llama después de desplegar el contrato, la variable `owner` permanecerá sin establecer, y cualquier usuario podría potencialmente llamar a `initialize` y establecerse a sí mismo como el propietario, tomando el control del contrato.
+Neste exemplo, se a função `initialize` não for chamada após o contrato ser implantado, a variável `owner` permanecerá não definida, permitindo que qualquer usuário potencialmente chame `initialize` e se defina como proprietário, assumindo o controle do contrato.
 
-**Mitigación:**
+**Mitigação:**
 
-1.  **Uso de un constructor:** Si el contrato no utiliza un patrón de proxy y se despliega directamente, siempre es recomendable usar un constructor para inicializar variables críticas como `owner`. El constructor asegura que estas variables se establezcan en el momento del despliegue y no puedan ser modificadas posteriormente.
+1.  **Uso de um construtor:** Caso o contrato não utilize o padrão proxy e seja implantado diretamente, é altamente recomendável usar um construtor para inicializar variáveis críticas como `owner`. O construtor garante que essas variáveis sejam definidas no momento da implantação e não possam ser modificadas posteriormente.
 
     ```solidity
     contract SecureContract {
@@ -41,7 +41,7 @@ En este ejemplo, si la función `initialize` no se llama después de desplegar e
         }
     }
     ```
-2.  **Inicialización en proxies:** Cuando se utiliza un patrón de proxy para desplegar contratos (un patrón común para facilitar actualizaciones), es crucial incluir una función de inicialización que asegure que el contrato solo puede ser inicializado una vez. Esta función debe estar protegida para que solo pueda ser llamada una vez y no pueda ser reutilizada por un atacante.
+2.  **Inicialização em proxies:** Quando se utiliza o padrão proxy para implantar contratos (uma prática comum para facilitar atualizações), é fundamental incluir uma função de inicialização que garanta que o contrato só possa ser inicializado uma única vez. Essa função deve ser protegida para que possa ser chamada apenas uma vez e não possa ser reutilizada por um atacante.
 
     ```solidity
     contract SecureContract {
@@ -60,7 +60,7 @@ En este ejemplo, si la función `initialize` no se llama después de desplegar e
         }
     }
     ```
-3.  **Protección contra la re-Inicialización:** Además de asegurar que la función de inicialización solo se puede ejecutar una vez, se puede implementar un modificador que verifique que el contrato ya ha sido inicializado antes de permitir la ejecución de funciones críticas.
+3.  **Proteção contra a re-inicialização:** Além de garantir que a função de inicialização só possa ser executada uma única vez, é possível implementar um modificador que verifique se o contrato já foi inicializado antes de permitir a execução de funções críticas.
 
     ```solidity
     modifier onlyInitialized() {
