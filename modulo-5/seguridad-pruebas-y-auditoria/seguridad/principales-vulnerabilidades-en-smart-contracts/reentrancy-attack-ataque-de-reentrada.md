@@ -13,9 +13,9 @@ function withdraw() public {
 }
 ```
 
-En este ejemplo, usando la función `withdraw()` un usuario puede retirar su saldo de ether, el mismo que depositó en el contrato previamente. La función lee el saldo del usuario y envía el importe de ether a la dirección que la llamó y finalmente resetea el saldo de la dirección que lo llamó.
+Neste exemplo, usando a função `withdraw()`, um usuário pode sacar seu saldo em ether, o mesmo que foi previamente depositado no contrato. A função lê o saldo do usuário, envia o valor correspondente em ether para o endereço que realizou a chamada e, por fim, redefine o saldo desse endereço.
 
-Como sabemos, podemos crear una función fallback que pueda recibir ether y que ejecute cierto código. Así, un atacante puede desplegar un contrato, en el que incluirá una función fallback del tipo siguiente:
+Como sabemos, é possível criar uma função _fallback_ que receba ether e execute determinado código. Assim, um atacante pode implantar um contrato que inclua uma função _fallback_ do seguinte tipo:
 
 ```solidity
 //Código usado por un atacante 
