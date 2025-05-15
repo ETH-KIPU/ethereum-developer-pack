@@ -1,3 +1,3 @@
-# Principales vulnerabilidades en smart contracts
+# Principais vulnerabilidades em contratos inteligentes
 
-Los contratos inteligentes, a pesar de su potencial y utilidad, pueden presentar varias vulnerabilidades que pueden ser explotadas por actores malintencionados. A continuación, se describen algunas de las principales vulnerabilidades que existen junto con ejemplos y recomendaciones para mitigarlas.
+Os contratos inteligentes, apesar de seu potencial e utilidade, podem apresentar diversas vulnerabilidades que podem ser exploradas por agentes mal-intencionados. A seguir, são descritas algumas das principais vulnerabilidades existentes, juntamente com exemplos e recomendações para mitigá-las.

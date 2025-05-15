@@ -138,7 +138,7 @@
     * [Recursos adicionales](modulo-5/seguridad-pruebas-y-auditoria/pruebas/recursos-adicionales.md)
   * [Seguridad](modulo-5/seguridad-pruebas-y-auditoria/seguridad/README.md)
     * [Una mentalidad distinta de diseño](modulo-5/seguridad-pruebas-y-auditoria/seguridad/una-mentalidad-distinta-de-diseno.md)
-    * [Principales vulnerabilidades en smart contracts](modulo-5/seguridad-pruebas-y-auditoria/seguridad/principales-vulnerabilidades-en-smart-contracts/README.md)
+    * [Principais vulnerabilidades em contratos inteligentes](modulo-5/seguridad-pruebas-y-auditoria/seguridad/principales-vulnerabilidades-en-smart-contracts/README.md)
       * [Reentrancy attack (ataque de reentrada)](modulo-5/seguridad-pruebas-y-auditoria/seguridad/principales-vulnerabilidades-en-smart-contracts/reentrancy-attack-ataque-de-reentrada.md)
       * [Replay attack (ataque de repetición)](modulo-5/seguridad-pruebas-y-auditoria/seguridad/principales-vulnerabilidades-en-smart-contracts/replay-attack-ataque-de-repeticion.md)
       * [Price Oracle Manipulation (Manipulación de Oráculos de Precios)](modulo-5/seguridad-pruebas-y-auditoria/seguridad/principales-vulnerabilidades-en-smart-contracts/price-oracle-manipulation-manipulacion-de-oraculos-de-precios.md)
