@@ -2,7 +2,7 @@
 
 ## Temario
 
-En esta sección aprenderás los siguiente:
+En esta sección aprenderás lo siguiente:
 
 * Antecedentes
 * Bitcoin

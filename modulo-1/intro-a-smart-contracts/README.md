@@ -4,7 +4,7 @@ icon: ethereum
 
 # Intro a Smart Contracts
 
-**Objetivo:** Revisar los conceptos básicos de blockchain y Ethereum para entender la máquina descentralizada sobre la corren los smart contracts. Crear el primer smart contract en una testnet.
+**Objetivo:** Revisar los conceptos básicos de blockchain y Ethereum para entender la máquina descentralizada sobre la que corren los smart contracts. Crear el primer smart contract en una testnet.
 
 <figure><img src="../../.gitbook/assets/EDP_mod1.png" alt=""><figcaption></figcaption></figure>
 
